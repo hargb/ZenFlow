@@ -29,25 +29,7 @@ Database	MongoDB
 Auth	Firebase Authentication
 Integrations	Gmail API, Google Calendar API, Instagram (Meta Graph API)
 Payments	Razorpay (optional, remove if unused)
-📁 Project Structure
 
-ZenFlow/
-├── backend/
-│   ├── routes/          # agents, chat, integrations
-│   ├── middleware/      # Firebase auth guard
-│   ├── agents/          # LangGraph graphs and nodes
-│   ├── tools/           # MCP tools: Gmail, Instagram, Calendar
-│   ├── models/          # MongoDB schemas
-│   └── .env.example
-│
-├── frontend/
-│   └── src/
-│       ├── pages/       # Home and other pages
-│       ├── components/  # Shadcn UI components
-│       ├── features/    # agents, chat and auth API layers
-│       └── redux/       # store and slices
-│
-└── README.md
 
 🚀 Getting Started
 Prerequisites
